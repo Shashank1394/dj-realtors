@@ -11,14 +11,14 @@ const AboutPage = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <div className="flex-grow border-t border-black"></div>
+        <div className="grow border-t border-black"></div>
         <span
           className="px-4 text-sm sm:text-base text-[#1d3557] tracking-wide whitespace-nowrap"
           id="verticals"
         >
           ABOUT US
         </span>
-        <div className="flex-grow border-t border-black"></div>
+        <div className="grow border-t border-black"></div>
       </motion.div>
 
       {/* Main Content Block */}

@@ -68,7 +68,7 @@ const Header = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
-          className="fixed inset-0 z-[999] bg-[#eff7fa] flex flex-col items-center justify-center space-y-8 text-2xl font-medium text-black"
+          className="fixed inset-0 z-999 bg-[#eff7fa] flex flex-col items-center justify-center space-y-8 text-2xl font-medium text-black"
         >
           <Link href="/" onClick={closeMenu} className="hover:underline">
             Home

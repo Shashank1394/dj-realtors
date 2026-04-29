@@ -23,7 +23,7 @@ const ProfileCard = ({
     className="flex flex-col justify-center items-center text-center px-4 sm:px-8 py-8 md:py-12 max-w-5xl mx-auto"
   >
     {/* Image */}
-    <div className="relative w-[143px] h-[157px] sm:w-[180px] sm:h-[200px] md:w-[200px] md:h-[220px]">
+    <div className="relative w-35.75 h-39.25 sm:w-45 sm:h-50 md:w-50 md:h-55">
       <Image
         src={image}
         alt={name}
@@ -60,16 +60,10 @@ const team = [
     description: `Client-First Approach | 10+ Years in Real Estate Advisory. Shrirang Bhadane brings over a decade of real estate experience marked by persistence, integrity, and a people-first mindset. With deep roots in the Nashik community and a strong network within the local market, he offers clients hands-on, results-driven guidance through every step of their real estate journey. Known for his clear communication, expert negotiation skills, and commitment to service, Shrirang has built his business almost entirely through referrals.`,
   },
   {
-    name: "Prashant Nahar",
+    name: "Kshitij Dandgaval",
     title: "Director - Retail Vertical",
-    image: "/about/prashant_nahar.png",
-    description: `Expert in Retail Real Estate Development & Leasing | 15+ Years of Experience. Prashant Nahar leads DJ Realtors LLP's retail vertical with over 15 years of core expertise in retail property development, leasing, and strategic advisory. Known for connecting top brands with premium, high-visibility retail spaces, he brings deep market knowledge and a results-driven, client-first approach.`,
-  },
-  {
-    name: "Harshad Kotkar",
-    title: "Director - Land Vertical",
-    image: "/about/harshad_kotkar.png",
-    description: `Expert in Land, Farm Plots & Bungalow Plot Transactions. Harshad Kotkar leads DJ Realtors's land and plot vertical with deep expertise in farmland, bungalow plots, and building plot sales and acquisitions. With years of focused experience, he brings sharp market insight, a strong industry network, and a reputation for transparent, client-first transactions.`,
+    image: "/about/kshitij_dandgaval.jpeg",
+    description: `Strategic & Tech-Driven Approach | 5+ Years in Real Estate Advisory. Kshitij Dandgaval is a results-driven real estate advisor with over five years of experience in the Nashik market. Known for his strong client interaction skills, he focuses on understanding needs deeply and delivering practical, value-driven solutions. Technologically sound and forward-thinking, he leverages digital tools and data to enhance decision-making and streamline deals. His creative, out-of-the-box approach helps uncover opportunities others may miss. Backed by a growing network and execution-focused mindset, he is committed to delivering seamless and effective real estate outcomes.`,
   },
 ];
 
@@ -85,11 +79,11 @@ const About = () => {
         viewport={{ once: true, amount: 0.2 }}
         className="flex items-center justify-center mt-10 mx-4 sm:mx-10 md:mx-20"
       >
-        <div className="flex-grow border-t border-black"></div>
+        <div className="grow border-t border-black"></div>
         <span className="px-2 text-sm sm:text-base text-[#1d3557] tracking-wide">
           ABOUT US
         </span>
-        <div className="flex-grow border-t border-black"></div>
+        <div className="grow border-t border-black"></div>
       </motion.div>
 
       {/* Team Section */}

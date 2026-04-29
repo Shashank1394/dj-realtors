@@ -20,20 +20,12 @@ const TeamPage = () => {
       email: "shrirang.djrealtors@gmail.com",
     },
     {
-      name: "Prashant Nahar",
+      name: "Kshitij Dandgaval",
       title: "Director",
       department: "Retail Vertical",
-      image: "/about/prashant_nahar.png",
-      phone: "+919822770646",
-      email: "nahar.djrealtors@gmail.com",
-    },
-    {
-      name: "Harshad Kotkar",
-      title: "Director",
-      department: "Land Vertical",
-      image: "/about/harshad_kotkar.png",
-      phone: "+917083111300",
-      email: "harshad.djrealtors@gmail.com",
+      image: "/about/kshitij_dandgaval.jpeg",
+      phone: "+917798182600",
+      email: "kshitij.djrealtors@gmail.com",
     },
   ];
 
@@ -47,14 +39,14 @@ const TeamPage = () => {
         viewport={{ once: true }}
         className="flex items-center justify-center my-8 mx-20"
       >
-        <div className="flex-grow border-t border-black"></div>
+        <div className="grow border-t border-black"></div>
         <span
           className="px-2 text-sm text-[#1d3557] tracking-wide"
           id="verticals"
         >
           OUR TEAM
         </span>
-        <div className="flex-grow border-t border-black"></div>
+        <div className="grow border-t border-black"></div>
       </motion.div>
 
       {/* Team Members */}
@@ -80,10 +72,10 @@ const TeamPage = () => {
               visible: { opacity: 1, scale: 1 },
             }}
             transition={{ duration: 0.5, ease: "easeOut" }}
-            className="flex flex-col items-center text-center w-full max-w-[180px] sm:max-w-[200px] md:max-w-[220px] lg:max-w-[250px]"
+            className="flex flex-col items-center text-center w-full max-w-45 sm:max-w-50 md:max-w-55 lg:max-w-62.5"
           >
             {/* Image Container */}
-            <div className="w-[90%] sm:w-[180px] md:w-[200px] lg:w-[220px] aspect-[5/5.3] relative overflow-hidden rounded-md shadow-md">
+            <div className="w-[90%] sm:w-45 md:w-50 lg:w-55 aspect-[5/5.3] relative overflow-hidden rounded-md shadow-md">
               <Image
                 src={member.image}
                 alt={member.name}

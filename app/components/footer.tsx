@@ -65,15 +65,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                Prashant Nahar:{" "}
-                <a href="tel:+919822770646" className="hover:underline">
-                  +91 9822770646
-                </a>
-              </li>
-              <li>
-                Harshad Kotkar:{" "}
-                <a href="tel:+917083111300" className="hover:underline">
-                  +91 7083111300
+                Kshitij Dandagaval:{" "}
+                <a href="tel:+917798182600" className="hover:underline">
+                  +91 7798182600
                 </a>
               </li>
             </ul>
