@@ -22,7 +22,7 @@ const TeamPage = () => {
     {
       name: "Kshitij Dandgaval",
       title: "Director",
-      department: "Retail Vertical",
+      department: "Retail & Investment",
       image: "/about/kshitij_dandgaval.jpeg",
       phone: "+917798182600",
       email: "kshitij.djrealtors@gmail.com",

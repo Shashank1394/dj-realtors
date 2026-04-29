@@ -61,7 +61,7 @@ const team = [
   },
   {
     name: "Kshitij Dandgaval",
-    title: "Director - Retail Vertical",
+    title: "Director - Retail & Investment",
     image: "/about/kshitij_dandgaval.jpeg",
     description: `Strategic & Tech-Driven Approach | 5+ Years in Real Estate Advisory. Kshitij Dandgaval is a results-driven real estate advisor with over five years of experience in the Nashik market. Known for his strong client interaction skills, he focuses on understanding needs deeply and delivering practical, value-driven solutions. Technologically sound and forward-thinking, he leverages digital tools and data to enhance decision-making and streamline deals. His creative, out-of-the-box approach helps uncover opportunities others may miss. Backed by a growing network and execution-focused mindset, he is committed to delivering seamless and effective real estate outcomes.`,
   },
